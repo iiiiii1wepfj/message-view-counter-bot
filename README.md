@@ -9,7 +9,7 @@ a telegram bot to add view counter to messages
  
  pip3 install -U -r requirements.txt
  
- edit the api hash and api id and bot token in bot.py
+ edit the api hash and api id and bot token and the channel id in forwardchannel in bot.py
  
 python3 bot.py
 
