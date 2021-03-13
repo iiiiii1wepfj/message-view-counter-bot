@@ -11,7 +11,7 @@ app = Client(':memory:', api_id, api_hash, bot_token=token)
 
 anonymous_poll = filters.create(lambda *_: _[2].poll is not None and not _[2].poll.is_anonymous)
 
-forwardchannel = -1001193655311
+forwardchannel = -1000000000000
 startmsg  = """
 text
 """
