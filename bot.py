@@ -9,7 +9,7 @@ from pyrogram.types import (
 
 
 api_id = api id
-api_hash = 'api hash'
+api_hash = "api hash"
 token = "token"
 
 
