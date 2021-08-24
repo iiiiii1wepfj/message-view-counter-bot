@@ -8,9 +8,9 @@ from pyrogram.types import (
 )
 
 
-api_id = api id
-api_hash = "api hash"
-token = "token"
+api_id: int = api id
+api_hash: str = "api hash"
+token: str = "token"
 
 
 app = Client(":memory:", api_id, api_hash, bot_token=token)
@@ -20,7 +20,7 @@ non_anonymous_poll = filters.create(
 )
 
 forwardchannel = -1000000000000
-startmsg = """
+startmsg: str = """
 text
 """
 
