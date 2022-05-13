@@ -13,7 +13,7 @@ api_hash: str = "api hash"
 token: str = "token"
 
 
-app = Client(":memory:", api_id, api_hash, bot_token=token)
+app = Client('viewcounterbot', in_memory=True, api_id, api_hash, bot_token=token)
 
 non_anonymous_poll = filters.create(
     lambda *_: _[2].poll is not None and not _[2].poll.is_anonymous
