@@ -36,7 +36,6 @@ async def start(client, message):
     ~filters.service
     & ~filters.game
     & ~filters.channel
-    & ~filters.edited
     & ~filters.linked_channel
     & ~non_anonymous_poll
 )
@@ -48,7 +47,6 @@ async def viewcounter(client, message):
 
 @app.on_message(
     (filters.service | filters.game | filters.channel | non_anonymous_poll)
-    & ~filters.edited
 )
 async def notsupported(client, message):
     await message.reply(
