@@ -21,7 +21,7 @@ non_anonymous_poll = filters.create(
 
 forwardchannel = -1000000000000
 startmsg: str = """
-text
+start message
 """
 
 
