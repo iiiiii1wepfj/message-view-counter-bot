@@ -1,2 +1,2 @@
-pyrogram
+hydrogram
 tgcrypto
